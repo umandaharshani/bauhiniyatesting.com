@@ -1,0 +1,308 @@
+
+.box1{
+	border: 1px solid black;
+	background-color: black;
+	height: 30px;
+}
+h4{
+	position: relative;
+	left: -85%;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin-top: -35px;
+    font-size: 35px;
+    }
+
+ul2{
+	float: left;
+	color: white;
+}
+
+ ul2 li{
+	margin-top: 10px;
+	float:left;
+	position: relative;
+	left: 510%;
+	width:100px;
+	front-size:16px;
+	front-family:Barlow condensed,sans-serif;
+	list-style-type: none;}
+
+ul2 li a {
+	text-decoration: none;
+	color: white;
+}
+h5{
+	margin-top: 1px;
+	color: white;
+	margin:7px 13px;
+	position: relative;
+	left:-15%;
+	font-weight:normal;
+}	
+fa-shopping-cart{
+	position: absolute;
+	color:white;
+		
+}
+.subbox{
+	border:1px solid transparent;
+	background-color:antiquewhite;
+	height:50px;
+}
+
+		
+*{
+	margin:0;
+	padding: 0;}	
+
+nav img {
+	align-content: center;}
+  
+ .header{
+	background-position: center;
+	 background-image:url("../imges/Untitled-3-Recovered.jpg");
+	background-size: cover;
+	position:relative;}
+
+nav{
+display:flex;
+padding:2% 6%;
+justify-content:space-between;
+align-items:center;}
+
+.nav_links{
+	
+	flex:10;
+	text-align:right;}
+
+.nav_links ul1 li {
+	list-style:none;
+    display:inline-block;
+   padding:8px 12px;
+   position: relative;}
+
+.nav_links ul1 li a{
+	width:0%;
+	height: 2%;
+	color: black;
+	text-decoration:none}
+
+.nav_links ul1 li a:hover{
+	border-bottom: 4px solid red;
+}
+
+.image_s{
+	align-content: center;
+	border-left-width: medium;}
+
+	h1{
+		text-align: center;
+	}
+
+
+
+.column {
+  float: right;
+  width: 33%;
+  padding: 10px;
+}
+
+
+
+
+ .new_arrive row {
+	
+ margin-top: 20%;
+	display:flex;
+	justify-content:flex-start;
+	text-align: center;
+	
+}
+
+.column {
+	width: 20%;
+ flex-basis: 25%;
+	padding: 10px;
+	min-width: 1px;
+	margin-bottom:50px;
+	margin-left: 35px;
+	margin-top: 20px;
+}
+.row after {
+  clear: both;
+	display: table;
+space-in-between:6px;
+column-count: 4}
+
+
+
+h2{
+	position: relative;
+	left: -91%;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	margin-top: -35px;
+    font-size: 40px;
+    }
+button{
+	padding:10px;
+min-width: 10px;
+	}
+
+.container {
+	width:80%;
+	margin:50px auto;}
+	
+.contact-box {
+	background:#E0A6A7;
+	display:flex;
+    
+}
+	
+.contact-left {
+	flex-basis: 70%;
+	padding:40px 60px;
+	background-color:#A9E7D8;}
+	
+.input-row {
+	display:flex;
+	justify-content: space-between;
+	margin-bottom:30px;
+	margin-top:20px;}
+.input-group {
+	  text-align:left;
+}
+	
+	
+.input-row .input-group {
+	flex-basis: 45%;
+    text-align:left;
+}
+	
+input {
+	width:100%;
+	border:none;
+	border-bottom:1px solid #CCC;
+	background-color:transparent;
+	padding-bottom:5px;
+	margin-top:5px;}
+	
+textarea {
+	width:100%;
+	background-color:transparent;
+	border:none;
+	border-bottom:1px solid #CCC;
+	padding:10px;}
+	
+button_1 {
+	width:100px;
+	background:#B7B4B4;
+	border:none;
+	outline:none;
+	height:50px;
+	border-radius:10px;
+	margin-top:10px;
+	box-shadow: 2px 2px red;}
+	
+.contact-left h3 {
+	color:#000000;}
+	
+label {
+	color:#000000;}
+	
+td {
+	color:#000000;}
+	
+.contact-right h3 {
+	color:#000000;}
+	
+tr td:first-child {
+	padding-right:20px;}
+	
+tr td {
+	padding-top:20px;}
+	
+.contact-right {
+	padding:40px 60px;}
+	
+
+
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+
+button {
+  background-color:#A2A1A1;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+button:hover {
+  opacity: 0.8;
+}
+
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
+img.avatar {
+  width: 10%;
+  border-radius: 50%;
+}
+
+
+.container {
+  padding: 16px;
+}
+
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+p{
+	text-align: center;
+}
+.cart-container{
+	
+	align-content: center;
+	border-left-width: medium;}
+img{
+    align-content:center;
+	justify-content:center;
+	border-left-width: medium;
+    text-align:left;}
+	
